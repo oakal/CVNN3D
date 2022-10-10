@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "Chan_Vese_NN"
+version = "0.1.0"
+description = "Packages related to Chan-Vese NN, 2D/3D CVNNN, CVNN-UNet"
+authors = ["Orhan Akal <orhanakal@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydicom = "^2.1.1"
+numpy = "^1.19.4"
+matplotlib = "^3.3.3"
+scipy = "^1.5.4"
+nibabel = "^3.2.0"
+SimpleITK = "^2.0.1"
+scikit-image = "^0.17.2"
+jupyterlab = "^2.2.9"
+MedPy = "^0.4.0"
+scikit-learn = "^0.23.2"
+trimesh = "^3.8.12"
+tqdm = "^4.54.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
