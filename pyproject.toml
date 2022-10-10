@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "Chan_Vese_NN"
+name = "CVNN3D"
 version = "0.1.0"
-description = "Packages related to Chan-Vese NN, 2D/3D CVNNN, CVNN-UNet"
-authors = ["Orhan Akal <orhanakal@gmail.com>"]
+description = "Functionalities related to to Chan-Vese NN, 2D/3D CVNNN, CVNN-UNet"
+authors = ["Orhan Akal <https://github.com/oakal/>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
